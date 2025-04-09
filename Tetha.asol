@@ -1,0 +1,125 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000004, day=000000000009, hour=000000000013, min=000000000044, sec=000000000043)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000002806, lin=000000000105, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock8'
+	SimSetupID=10
+	SimSetupName='Setup1'
+	VersionID=197
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	MeshAssemVersionID=6
+	$begin 'NextAssemVersionID'
+		NextUniqueID=7
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+	$end 'ADP'
+	$begin 'SU'
+	$end 'SU'
+	$begin 'LastPassNumbers'
+		LP(VID=13, Ver=197, P=0)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=13, Ver=197, File='DV13_S10_V197.profile')
+	$end 'Profiles'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock8'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=10, Instance=\'SetupDefinition\', Solution=-1, VersionID=197)'='SolutionBlock8'
+	'SolutionKey(SimSetup=10, Instance=\'SolutionDefinition\', Solution=11, VersionID=199)'='SolutionBlock6'
+	'SolutionKey(SimSetup=10, Instance=\'SolutionDefinition\', Solution=12, VersionID=199)'='SolutionBlock7'
+$end 'BlockMapName'
+$begin 'SolutionBlock6'
+	SolutionName='AdaptivePass'
+	SolutionID=11
+	V=199
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1010000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock6'
+$begin 'SolutionBlock7'
+	SolutionName='LastAdaptive'
+	SolutionID=12
+	V=199
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1010000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock7'
+$begin 'SolutionBlock1'
+	ProductName='HFSS'
+	CircuitName='Tetha'
+	VersionID=197
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=254
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=13)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=13, Ver=197, Dir='DV13_V197.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=16
+	$begin 'NextAssemVersionID'
+		NextUniqueID=17
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=15
+			VIDMap('', 68)
+			DM(VID=68, Ver=15, Dir='NDV68_V15.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=13, Ver=197, Dir='DV13_MI0_V197.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=198
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=1973, lin=68, lvl=0)
+		BlockMapName(pos=873, lin=26, lvl=0)
+		SolutionBlock6(pos=1259, lin=32, lvl=0)
+		SolutionBlock7(pos=1616, lin=50, lvl=0)
+		SolutionBlock8(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=2806, lin=105, lvl=0)
+	$end '$index$'
+$end '$index$'
